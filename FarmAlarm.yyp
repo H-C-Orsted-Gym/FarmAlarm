@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Spr_Bullet","path":"sprites/Spr_Bullet/Spr_Bullet.yy",},"order":1,},
+    {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":1,},
+    {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
+    {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
