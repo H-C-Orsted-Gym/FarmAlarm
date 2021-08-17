@@ -6,8 +6,7 @@ if (current_time >= lastTime + walkSpeedMS) {
 		return;
 	} else {
 		lastTime = current_time;
-		facingDirection = "right";
-		image_angle = 270;
+		image_angle = 0;
 		x = x + 64;
 	}	
 }
