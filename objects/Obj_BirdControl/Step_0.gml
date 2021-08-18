@@ -3,7 +3,7 @@
 
 if (current_time > 10000) {
 	// Spawn Bird
-	SpawnBird();
+	//SpawnBird();
 }
 
 
