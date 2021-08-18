@@ -2,7 +2,9 @@
   "resources": [
     {"id":{"name":"Obj_Bird","path":"objects/Obj_Bird/Obj_Bird.yy",},"order":3,},
     {"id":{"name":"Spr_Bullet","path":"sprites/Spr_Bullet/Spr_Bullet.yy",},"order":1,},
+    {"id":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"order":4,},
     {"id":{"name":"Spr_Lettuce","path":"sprites/Spr_Lettuce/Spr_Lettuce.yy",},"order":4,},
+    {"id":{"name":"Fn_Score","path":"fonts/Fn_Score/Fn_Score.yy",},"order":0,},
     {"id":{"name":"Tile_Lettuce","path":"tilesets/Tile_Lettuce/Tile_Lettuce.yy",},"order":1,},
     {"id":{"name":"Spr_Fence","path":"sprites/Spr_Fence/Spr_Fence.yy",},"order":2,},
     {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":1,},
