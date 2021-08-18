@@ -6,7 +6,7 @@ function SpawnBird() {
 	var x_placement = (round(random_range(0, 18)) * 64 ) + 96;
 	var y_placement = choose(160, 288, 416, 544, 672);
 	
-	var inst = instance_create_depth(x_spawnPoint, y_spawnPoint, 1, Obj_Bird);
+	var inst = instance_create_depth(x_spawnPoint, y_spawnPoint, -2, Obj_Bird);
 	
 	with (inst)
 	{

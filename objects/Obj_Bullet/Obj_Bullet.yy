@@ -3,7 +3,7 @@
     "name": "Spr_Bullet",
     "path": "sprites/Spr_Bullet/Spr_Bullet.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

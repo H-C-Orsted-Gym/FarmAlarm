@@ -10,6 +10,7 @@
     {"id":{"name":"Spr_Fence","path":"sprites/Spr_Fence/Spr_Fence.yy",},"order":2,},
     {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":1,},
     {"id":{"name":"Tile_Carrot","path":"tilesets/Tile_Carrot/Tile_Carrot.yy",},"order":0,},
+    {"id":{"name":"Spr_FenceCorner","path":"sprites/Spr_FenceCorner/Spr_FenceCorner.yy",},"order":6,},
     {"id":{"name":"Spr_Carrot","path":"sprites/Spr_Carrot/Spr_Carrot.yy",},"order":5,},
     {"id":{"name":"SpawnBird","path":"scripts/SpawnBird/SpawnBird.yy",},"order":0,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
