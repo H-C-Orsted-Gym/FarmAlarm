@@ -8,6 +8,17 @@ for (i = 0; i < ds_list_size(birdsList); i++) {
 	//show_debug_message(birddy.target_y);
 	
 	if (point_distance(birddy.target_x, birddy.target_y, birddy.x, birddy.y) < 2) {
-		birddy.speed = 0;
+		if (birddy.placementTime != 0) {
+			if (birddy.placementTime + Obj_Bird.eatTime < current_time) {
+				// Remove health
+				
+				
+				ds_list_delete(birdsList, i);
+				instance_destroy(birddy.id);
+			}
+		} else {
+			birddy.placementTime = current_time;
+			birddy.speed = 0;
+		}
 	}
 }
