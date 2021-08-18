@@ -1,11 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"Obj_Bird","path":"objects/Obj_Bird/Obj_Bird.yy",},"order":3,},
     {"id":{"name":"Spr_Bullet","path":"sprites/Spr_Bullet/Spr_Bullet.yy",},"order":1,},
+    {"id":{"name":"Spr_Lettuce","path":"sprites/Spr_Lettuce/Spr_Lettuce.yy",},"order":4,},
+    {"id":{"name":"Tile_Lettuce","path":"tilesets/Tile_Lettuce/Tile_Lettuce.yy",},"order":1,},
     {"id":{"name":"Spr_Fence","path":"sprites/Spr_Fence/Spr_Fence.yy",},"order":2,},
     {"id":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"order":1,},
+    {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":15,},
+    {"id":{"name":"Tile_Carrot","path":"tilesets/Tile_Carrot/Tile_Carrot.yy",},"order":0,},
+    {"id":{"name":"Spr_Carrot","path":"sprites/Spr_Carrot/Spr_Carrot.yy",},"order":5,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
     {"id":{"name":"Obj_Fence","path":"objects/Obj_Fence/Obj_Fence.yy",},"order":2,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
+    {"id":{"name":"Spr_Bird","path":"sprites/Spr_Bird/Spr_Bird.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
