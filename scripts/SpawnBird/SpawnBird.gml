@@ -6,18 +6,20 @@ function SpawnBird() {
 	var x_placement = (round(random_range(0, 18)) * 64 ) + 96;
 	var y_placement = choose(160, 288, 416, 544, 672);
 	
-	var inst = instance_create_depth(x_spawnPoint, y_spawnPoint, -2, Obj_Bird);
+	//if (ds_list_find_value(birdsList, string(x_placement) + "," + string(y_placement) != undefined)) {
+		var inst = instance_create_depth(x_spawnPoint, y_spawnPoint, -2, Obj_Bird);
 	
-	with (inst)
-	{
-		move_towards_point(x_placement, y_placement, 2);	
-		if (point_distance(x_placement, y_placement, inst.x, inst.y) < 100) {
-			inst.x = x_placement;
-			inst.y = y_placement;
-			inst.speed = 0;
-		} 
+		with (inst)
+		{
+			move_towards_point(x_placement, y_placement, 4);
+			
+			inst.target_x = x_placement;
+			inst.target_y = y_placement;
+			
+		 	ds_list_add(birdsList, inst);
 	
-		// place.empty
-		//ds_list_add(Obj_Bird.birdPlaces, string(x_placement) + "," + string(y_placement));
-	}
+			// place.empty
+			//ds_list_add(Obj_Bird.birdPlaces, string(x_placement) + "," + string(y_placement));
+		}
+	//}
 }
