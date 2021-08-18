@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "Spr_Fence",
-    "path": "sprites/Spr_Fence/Spr_Fence.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -19,14 +16,9 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":29.0,"y":0.0,},
-    {"x":36.0,"y":0.0,},
-    {"x":36.0,"y":64.0,},
-    {"x":29.0,"y":64.0,},
-  ],
+  "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Bullet","path":"objects/Obj_Bullet/Obj_Bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Fence",
+  "name": "Obj_BirdControl",
   "tags": [],
   "resourceType": "GMObject",
 }
