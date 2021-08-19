@@ -19,6 +19,8 @@ function SpawnBird() {
 		 	ds_list_add(birdsList, inst);
 			
 			inst.listId = ds_list_find_index(birdsList, inst);
+			
+			show_debug_message(string(inst.listId));
 	
 			// place.empty
 			//ds_list_add(Obj_Bird.birdPlaces, string(x_placement) + "," + string(y_placement));

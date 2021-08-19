@@ -6,6 +6,6 @@ instance_destroy(self);
 
 // Remove from list
 var listIndex = self.listId;
-ds_list_delete(birdsList, listIndex);
+ds_list_set(birdsList, listIndex, undefined);
 
 Obj_Player.playerScore += 1;
