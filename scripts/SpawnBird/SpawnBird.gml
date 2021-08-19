@@ -13,6 +13,10 @@ function SpawnBird() {
 		{
 			move_towards_point(x_placement, y_placement, 4);
 			
+			if (x_spawnPoint > x_placement) {
+				inst.image_xscale = -1;
+			}
+			
 			inst.target_x = x_placement;
 			inst.target_y = y_placement;
 			

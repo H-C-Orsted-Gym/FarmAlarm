@@ -19,6 +19,8 @@ for (i = 0; i < ds_list_size(birdsList); i++) {
 				}
 			} else {
 				birddy.placementTime = current_time;
+				birddy.image_speed = 0;
+				birddy.image_index = 1;
 				birddy.speed = 0;
 			}
 		}
