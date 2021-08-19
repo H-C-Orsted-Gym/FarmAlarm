@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (current_time > Obj_BirdControl.lastBirdTime + Obj_BirdControl.timeBetweenBirdsMS) {
+	SpawnBird();
+	Obj_BirdControl.lastBirdTime = current_time;
+}
+
 for (i = 0; i < ds_list_size(birdsList); i++) {
 	var birddy = ds_list_find_value(birdsList, i);
 	
