@@ -24,7 +24,7 @@
   ],
   "properties": [
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"lastBirdTime","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"8000","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"timeBetweenBirdsMS","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":1,"value":"15000","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"timeBetweenBirdsMS","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
