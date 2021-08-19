@@ -3,7 +3,7 @@
 function SpawnBird() {
 	var x_spawnPoint = round(random_range(0, room_width));
 	var y_spawnPoint = 0;
-	var x_placement = (round(random_range(0, 18)) * 64 ) + 96;
+	var x_placement = (round(random_range(0, 14)) * 64 ) + 96;
 	var y_placement = choose(160, 288, 416, 544, 672);
 	
 	//if (ds_list_find_value(birdsList, string(x_placement) + "," + string(y_placement) != undefined)) {
