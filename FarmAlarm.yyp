@@ -4,6 +4,7 @@
     {"id":{"name":"Spr_Stone2","path":"sprites/Spr_Stone2/Spr_Stone2.yy",},"order":15,},
     {"id":{"name":"Spr_Bullet","path":"sprites/Spr_Bullet/Spr_Bullet.yy",},"order":1,},
     {"id":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"order":4,},
+    {"id":{"name":"Spr_BirdTime","path":"sprites/Spr_BirdTime/Spr_BirdTime.yy",},"order":19,},
     {"id":{"name":"Spr_Grass","path":"sprites/Spr_Grass/Spr_Grass.yy",},"order":8,},
     {"id":{"name":"Obj_CoinControl","path":"objects/Obj_CoinControl/Obj_CoinControl.yy",},"order":6,},
     {"id":{"name":"Spr_Stone3","path":"sprites/Spr_Stone3/Spr_Stone3.yy",},"order":16,},

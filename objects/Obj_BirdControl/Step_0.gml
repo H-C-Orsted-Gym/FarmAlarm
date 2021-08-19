@@ -22,10 +22,41 @@ for (i = 0; i < ds_list_size(birdsList); i++) {
 					ds_list_set(birdsList, birddy.listId, undefined);
 					instance_destroy(birddy.id);
 				}
+				if ((current_time - birddy.placementTime) / 1000 == 1) {
+					birddy.image_index = 1;
+				} else if ((current_time - birddy.placementTime) / 1000 == 2) {
+					birddy.image_index = 2;
+				} else if ((current_time - birddy.placementTime) / 1000 == 3) {
+					birddy.image_index = 3;
+				} else if ((current_time - birddy.placementTime) / 1000 == 4) {
+					birddy.image_index = 4;
+				} else if ((current_time - birddy.placementTime) / 1000 == 5) {
+					birddy.image_index = 5;
+				} else if ((current_time - birddy.placementTime) / 1000 == 6) {
+					birddy.image_index = 6;
+				} else if ((current_time - birddy.placementTime) / 1000 == 7) {
+					birddy.image_index = 7;
+				} else if ((current_time - birddy.placementTime) / 1000 == 8) {
+					birddy.image_index = 8;
+				} else if ((current_time - birddy.placementTime) / 1000 == 9) {
+					birddy.image_index = 9;
+				} else if ((current_time - birddy.placementTime) / 1000 == 10) {
+					birddy.image_index = 10;
+				} else if ((current_time - birddy.placementTime) / 1000 == 11) {
+					birddy.image_index = 11;
+				} else if ((current_time - birddy.placementTime) / 1000 == 12) {
+					birddy.image_index = 12;
+				} else if ((current_time - birddy.placementTime) / 1000 == 13) {
+					birddy.image_index = 13;
+				} else if ((current_time - birddy.placementTime) / 1000 == 14) {
+					birddy.image_index = 14;
+				} else if ((current_time - birddy.placementTime) / 1000 == 15) {
+					birddy.image_index = 15;
+				}
 			} else {
 				birddy.placementTime = current_time;
+				birddy.sprite_index = Spr_BirdTime;
 				birddy.image_speed = 0;
-				birddy.image_index = 1;
 				birddy.speed = 0;
 			}
 		}
