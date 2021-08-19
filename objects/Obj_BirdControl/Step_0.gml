@@ -17,6 +17,7 @@ for (i = 0; i < ds_list_size(birdsList); i++) {
 			if (birddy.placementTime != 0) {
 				if (birddy.placementTime + Obj_Bird.eatTime < current_time) {
 					// Remove health
+					Obj_Player.playerHealth--;
 				
 					// Play Effect
 					effect_create_above(ef_firework, birddy.x, birddy.y, 0.1, c_green)
