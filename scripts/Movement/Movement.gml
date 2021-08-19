@@ -6,6 +6,7 @@ function MoveLeft(){
 			if (keyboard_check(vk_up) || keyboard_check(vk_right) || keyboard_check(vk_down)) {
 				return;
 			} else {
+				WalkSound(); 
 				Obj_Player.lastTimeWalked = current_time;
 				Obj_Player.image_angle = 180;
 				Obj_Player.x = Obj_Player.x - 64;
@@ -20,6 +21,7 @@ function MoveRight(){
 			if (keyboard_check(vk_up) || keyboard_check(vk_left) || keyboard_check(vk_down)) {
 				return;
 			} else {
+				WalkSound();
 				Obj_Player.lastTimeWalked = current_time;
 				Obj_Player.image_angle = 0;
 				Obj_Player.x = Obj_Player.x + 64;
@@ -34,6 +36,7 @@ function MoveUp(){
 			if (keyboard_check(vk_left) || keyboard_check(vk_right) || keyboard_check(vk_down)) {
 				return;
 			} else {
+				WalkSound();
 				Obj_Player.lastTimeWalked = current_time;
 				Obj_Player.image_angle = 90;
 				Obj_Player.y = Obj_Player.y - 64;	
@@ -48,10 +51,16 @@ function MoveDown(){
 			if (keyboard_check(vk_up) || keyboard_check(vk_right) || keyboard_check(vk_left)) {
 				return;
 			} else {
+				WalkSound();
 				Obj_Player.lastTimeWalked = current_time;
 				Obj_Player.image_angle = 270;
 				Obj_Player.y = Obj_Player.y + 64;
 			}
 		}
 	}
+}
+
+function WalkSound() {
+	var randomSound = choose(Snd_Walk1, Snd_Walk2, Snd_Walk3);
+	audio_play_sound(randomSound, 10, false); 
 }
