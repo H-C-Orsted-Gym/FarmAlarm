@@ -15,14 +15,14 @@ if (gamepad_axis_value(4, gp_axislv) > 0.5){
 
 if (gamepad_button_check_pressed(4, gp_face4)) {
     if (current_time >= lastTimeShot + shootSpeedMS) {
-	var inst = instance_create_depth(Obj_Player.x, Obj_Player.y, 1, Obj_Bullet);
-	with (inst)
-	{
-		image_angle = Obj_Player.image_angle;
-		speed = Obj_Bullet.shootSpeed ;
-		direction = Obj_Player.image_angle;
-	}
+		var inst = instance_create_depth(Obj_Player.x, Obj_Player.y, 1, Obj_Bullet);
+		with (inst)
+		{
+			image_angle = Obj_Player.image_angle;
+			speed = Obj_Bullet.shootSpeed ;
+			direction = Obj_Player.image_angle;
+		}
 	
-	lastTimeShot = current_time;
-}
+		lastTimeShot = current_time;
+	}
 }

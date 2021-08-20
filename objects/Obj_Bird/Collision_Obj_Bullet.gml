@@ -3,7 +3,6 @@
 
 // Delete instance
 instance_destroy(self);
-instance_destroy(Obj_Bullet);
 
 // Play Effect
 effect_create_above(ef_firework, self.x, self.y, 0.1, c_red)

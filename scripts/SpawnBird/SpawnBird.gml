@@ -24,6 +24,10 @@ function SpawnBird() {
 			
 			inst.listId = ds_list_find_index(birdsList, inst);
 			
+			/*if (inst.listId == 100) {
+				show_debug_message("Spawn RATE (100 Birds) : " + string(current_time));	
+			}*/
+			
 			//show_debug_message(string(inst.listId));
 	
 			// place.empty
