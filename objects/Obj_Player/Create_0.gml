@@ -3,4 +3,5 @@
 //x = room_width / 2;
 //y = room_height / 2;
 
+global.Score = 0;
 self.playerHealth = 3;
