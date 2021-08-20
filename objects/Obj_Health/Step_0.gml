@@ -11,4 +11,5 @@ if (Obj_Player.playerHealth == 3) {
 	self.image_index = 3;
 	
 	// Goto end screen
+	
 }
