@@ -6,7 +6,6 @@ function SpawnBird() {
 	var x_placement = (round(random_range(0, 13)) * 64 ) + 96;
 	var y_placement = choose(160, 288, 416, 544, 672);
 	
-	//if (ds_list_find_value(birdsList, string(x_placement) + "," + string(y_placement) != undefined)) {
 		var inst = instance_create_depth(x_spawnPoint, y_spawnPoint, -2, Obj_Bird);
 	
 		with (inst)
@@ -32,6 +31,5 @@ function SpawnBird() {
 	
 			// place.empty
 			//ds_list_add(Obj_Bird.birdPlaces, string(x_placement) + "," + string(y_placement));
-		}
-	//}
+	}
 }

@@ -12,4 +12,4 @@ var listIndex = self.listId;
 ds_list_set(birdsList, listIndex, undefined);
 
 Obj_Player.playerScore += 1;
-global.Score++;
+global.Score++; 
