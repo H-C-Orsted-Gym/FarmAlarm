@@ -19,6 +19,8 @@
     {"id":{"name":"Snd_Walk2","path":"sounds/Snd_Walk2/Snd_Walk2.yy",},"order":1,},
     {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},"order":2,},
     {"id":{"name":"Spr_Lettuce","path":"sprites/Spr_Lettuce/Spr_Lettuce.yy",},"order":4,},
+    {"id":{"name":"Obj_LevelControl","path":"objects/Obj_LevelControl/Obj_LevelControl.yy",},"order":9,},
+    {"id":{"name":"Level","path":"scripts/Level/Level.yy",},"order":3,},
     {"id":{"name":"Fn_Score","path":"fonts/Fn_Score/Fn_Score.yy",},"order":0,},
     {"id":{"name":"Tile_Lettuce","path":"tilesets/Tile_Lettuce/Tile_Lettuce.yy",},"order":1,},
     {"id":{"name":"Obj_Health","path":"objects/Obj_Health/Obj_Health.yy",},"order":8,},
