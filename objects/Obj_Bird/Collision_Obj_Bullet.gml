@@ -11,5 +11,5 @@ effect_create_above(ef_firework, self.x, self.y, 0.1, c_red)
 var listIndex = self.listId;
 ds_list_set(birdsList, listIndex, undefined);
 
-Obj_Player.playerScore += 1;
+Obj_Player.playerScore += 10;
 global.Score++;

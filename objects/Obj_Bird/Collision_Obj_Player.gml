@@ -14,5 +14,5 @@ audio_play_sound(Snd_Kick, 10, false);
 var listIndex = self.listId;
 ds_list_set(birdsList, listIndex, undefined);
 
-Obj_Player.playerScore += 1;
+Obj_Player.playerScore += 10;
 global.Score++; 
