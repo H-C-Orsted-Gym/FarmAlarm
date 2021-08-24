@@ -12,4 +12,6 @@ if (Obj_Player.playerHealth == 3) {
 	
 	// Goto end screen
 	room_goto(DeadRoom)
+	
+	audio_play_sound(Snd_Dead, 10, false);
 }

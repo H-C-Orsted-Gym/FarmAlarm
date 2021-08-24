@@ -22,6 +22,7 @@ for (i = 0; i < ds_list_size(birdsList); i++) {
 					// Play Effect
 					effect_create_above(ef_firework, birddy.x, birddy.y, 0.1, c_green)
 					
+					audio_play_sound(Snd_HealthLoss, 7, false);
 					 
 					ds_list_set(birdsList, birddy.listId, undefined);
 					instance_destroy(birddy.id);
