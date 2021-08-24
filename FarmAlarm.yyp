@@ -15,6 +15,7 @@
     {"id":{"name":"Spr_DeadScreen","path":"sprites/Spr_DeadScreen/Spr_DeadScreen.yy",},"order":23,},
     {"id":{"name":"Snd_Kick","path":"sounds/Snd_Kick/Snd_Kick.yy",},"order":6,},
     {"id":{"name":"Tile_Dirt","path":"tilesets/Tile_Dirt/Tile_Dirt.yy",},"order":3,},
+    {"id":{"name":"Snd_Coin","path":"sounds/Snd_Coin/Snd_Coin.yy",},"order":7,},
     {"id":{"name":"SpawnCoin","path":"scripts/SpawnCoin/SpawnCoin.yy",},"order":1,},
     {"id":{"name":"Spr_Dirt","path":"sprites/Spr_Dirt/Spr_Dirt.yy",},"order":9,},
     {"id":{"name":"Spr_StartButton","path":"sprites/Spr_StartButton/Spr_StartButton.yy",},"order":22,},
