@@ -33,6 +33,7 @@
     {"id":{"name":"Obj_StartButton","path":"objects/Obj_StartButton/Obj_StartButton.yy",},"order":10,},
     {"id":{"name":"Tile_Lettuce","path":"tilesets/Tile_Lettuce/Tile_Lettuce.yy",},"order":1,},
     {"id":{"name":"Spr_StartScreen","path":"sprites/Spr_StartScreen/Spr_StartScreen.yy",},"order":21,},
+    {"id":{"name":"Obj_ExitGame","path":"objects/Obj_ExitGame/Obj_ExitGame.yy",},"order":14,},
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},"order":2,},
     {"id":{"name":"Obj_Health","path":"objects/Obj_Health/Obj_Health.yy",},"order":8,},
     {"id":{"name":"Tile_Grass","path":"tilesets/Tile_Grass/Tile_Grass.yy",},"order":2,},
